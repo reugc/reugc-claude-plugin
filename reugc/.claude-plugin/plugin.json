@@ -1,0 +1,29 @@
+{
+  "name": "reugc",
+  "displayName": "RE/UGC",
+  "description": "Search RE/UGC's library of real creator reaction clips by emotion, preview them, download the originals you own and turn them into scroll-stopping hooks for TikTok, Reels and Shorts.",
+  "version": "1.0.0",
+  "author": {
+    "name": "RE/UGC",
+    "email": "support@reugc.com",
+    "url": "https://reugc.com"
+  },
+  "homepage": "https://reugc.com/agents",
+  "repository": "https://github.com/reugc/reugc-claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "ugc",
+    "video",
+    "reaction clips",
+    "tiktok",
+    "reels",
+    "shorts",
+    "ads",
+    "marketing"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://reugc.com/agents",
+  "supportUrl": "https://reugc.com/agents#support",
+  "privacyPolicyUrl": "https://reugc.com/privacy",
+  "termsOfServiceUrl": "https://reugc.com/terms"
+}

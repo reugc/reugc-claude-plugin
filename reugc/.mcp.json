@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "reugc": {
+      "type": "http",
+      "url": "https://reugc.com/mcp"
+    }
+  }
+}

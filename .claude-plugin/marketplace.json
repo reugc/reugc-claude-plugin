@@ -1,0 +1,12 @@
+{
+  "name": "reugc",
+  "owner": { "name": "RE/UGC", "url": "https://reugc.com" },
+  "metadata": { "description": "Official RE/UGC plugins for Claude." },
+  "plugins": [
+    {
+      "name": "reugc",
+      "source": "./reugc",
+      "description": "Search RE/UGC's real creator reaction clips by emotion, preview them, download the originals you own and turn them into hook videos."
+    }
+  ]
+}
