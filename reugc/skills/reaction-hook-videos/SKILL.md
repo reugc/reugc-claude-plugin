@@ -18,9 +18,9 @@ product footage pays it off.
 3. Call `search_clips` with a `category` and, if useful, `max_duration_seconds`
    (hooks are usually 2-6 seconds). Offer 3-5 options with their title,
    creator, duration and preview link so the user can choose.
-4. Call `get_account` to see whether the chosen clip is owned. If
-   `access` is `unlock_required`, tell the user it costs 1 credit from their
-   balance and wait for a yes before calling `unlock_clip`.
+4. Check the chosen clip's `access`. If it is `unlock_required`, tell the user
+   it costs 1 credit from their balance and wait for a yes before calling
+   `unlock_clip`.
 
 ## 2. Download the original
 
@@ -30,6 +30,9 @@ after 5 minutes. Never paste the link into shared documents.
 ```bash
 curl -L --fail -o reaction.mp4 "<downloadUrl>"
 ```
+
+If you can't run commands, give the user the link and tell them it expires in
+5 minutes.
 
 ## 3. Edit (ffmpeg)
 
